@@ -15,5 +15,6 @@ Un site interessant sur les assets de unity incluant la programmation physique d
 
 site pour l'organisation des fichiers: http://blog.theknightsofunity.com/7-ways-keep-unity-project-organized/
 
-Projet de GutHub: https://github.com/unity-car-tutorials/Unity5-Gotow-Car-Tutorial
+Projet de GitHub: https://github.com/unity-car-tutorials/Unity5-Gotow-Car-Tutorial
+
 Projet Unity gratuit: https://assetstore.unity.com/packages/essentials/tutorial-projects/vehicle-tools-83660
