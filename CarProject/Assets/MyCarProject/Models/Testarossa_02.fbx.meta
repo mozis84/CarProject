@@ -296,6 +296,61 @@ ModelImporter:
     4300104: body04
     4300106: body02
     4300108: body01
+    6400000: AirIconv_gum04
+    6400002: black02
+    6400004: black_m02
+    6400006: body01
+    6400008: body02
+    6400010: body03
+    6400012: body04
+    6400014: body05
+    6400016: body06
+    6400018: body06_2
+    6400020: body07
+    6400022: body08
+    6400024: chrome03_1
+    6400026: chrome04_2
+    6400028: chrome06
+    6400030: chrome07
+    6400032: chrome07_1
+    6400034: chrome11_2
+    6400036: chrome12_2
+    6400038: chrome13_1
+    6400040: chrome14_1
+    6400042: chrome18
+    6400044: d_glass
+    6400046: DoorLock_chrome02_2
+    6400048: FL
+    6400050: FR
+    6400052: FrontBumper_gum01
+    6400054: glass02
+    6400056: glass03
+    6400058: glass05
+    6400060: glass06
+    6400062: Grillback_black_m05
+    6400064: GrilleAv_gum17
+    6400066: GrillRHood_gum05
+    6400068: gum03
+    6400070: gum06
+    6400072: gum07
+    6400074: gum15
+    6400076: lamp02
+    6400078: lamp03
+    6400080: lamp_x02
+    6400082: logo01
+    6400084: logo02
+    6400086: logo_b
+    6400088: o_glass01
+    6400090: o_glass02
+    6400092: o_glass03
+    6400094: Pinouchechrome01_2
+    6400096: plate_
+    6400098: r_glass
+    6400100: RL
+    6400102: RR
+    6400104: UdRail_gum02
+    6400106: UdWShield_gum16
+    6400108: Wipers
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -393,7 +448,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
