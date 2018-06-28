@@ -136,8 +136,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 62729}
   m_LocalRotation: {x: -3.0305375e-22, y: -6.975737e-15, z: 0.00000004344398, w: 1}
-  m_LocalPosition: {x: 1.1055107, y: -0.33280838, z: 1.7289323}
-  m_LocalScale: {x: 0.0030000017, y: 0.003, z: 0.003000002}
+  m_LocalPosition: {x: 1.1055107, y: -0.16, z: 1.7289323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1017132572}
   m_RootOrder: 1
@@ -149,13 +149,13 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 62729}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 172.3
+  m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 36892
+    damper: 5902
     targetPosition: 0.5
-  m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0
+  m_SuspensionDistance: 0.7
+  m_ForceAppPointDistance: 0.12
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -2294,7 +2294,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1017132571
 GameObject:
@@ -2573,8 +2573,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1189333035}
   m_LocalRotation: {x: -3.0305375e-22, y: -6.975737e-15, z: 0.00000004344398, w: 1}
-  m_LocalPosition: {x: -1.3138264, y: -0.3328305, z: -2.108018}
-  m_LocalScale: {x: 0.0030000017, y: 0.003, z: 0.003000002}
+  m_LocalPosition: {x: -1.3138264, y: -0.16, z: -2.108018}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1017132572}
   m_RootOrder: 2
@@ -2586,14 +2586,14 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1189333035}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 172.3
+  m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 36892
+    damper: 5900
     targetPosition: 0.5
-  m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0
-  m_Mass: 20
+  m_SuspensionDistance: 0.7
+  m_ForceAppPointDistance: 0.12
+  m_Mass: 1
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
     m_ExtremumSlip: 0.4
@@ -2779,8 +2779,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1308747905}
   m_LocalRotation: {x: -3.0305375e-22, y: -6.975737e-15, z: 0.00000004344398, w: 1}
-  m_LocalPosition: {x: 1.1945648, y: -0.33283073, z: -2.108018}
-  m_LocalScale: {x: 0.0030000017, y: 0.003, z: 0.003000002}
+  m_LocalPosition: {x: 1.1945648, y: -0.16, z: -2.108018}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1017132572}
   m_RootOrder: 3
@@ -2792,13 +2792,13 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1308747905}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 172.3
+  m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 38128.28
+    damper: 6100
     targetPosition: 0.5
-  m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0
+  m_SuspensionDistance: 0.7
+  m_ForceAppPointDistance: 0.12
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -3012,7 +3012,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 95
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -3036,13 +3036,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1355006882}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.13874105, y: 0, z: 0, w: 0.9903287}
+  m_LocalPosition: {x: 0.45, y: 5.48, z: -4.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 15.95, y: 0, z: 0}
 --- !u!1 &1395917224
 GameObject:
   m_ObjectHideFlags: 0
@@ -3518,7 +3518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1692009269
 Transform:
   m_ObjectHideFlags: 0
@@ -4197,7 +4197,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1975105764}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.669, z: 0}
+  m_LocalPosition: {x: 0, y: 4.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1668614684}
@@ -4247,7 +4247,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &1975105767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4259,14 +4259,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c776f66811089c8488bb227c3f86aa73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAngle: 30
-  maxTorque: 300
+  maxAngle: 35
+  maxTorque: 800
   brakeTorque: 30000
   wheelShape: {fileID: 1698722704388112, guid: b1565eb5f49c8214eba5d77f14ebeaa2, type: 2}
-  criticalSpeed: 5
-  stepsBelow: 5
-  stepsAbove: 1
-  driveType: 0
+  criticalSpeed: 8
+  stepsBelow: 7
+  stepsAbove: 2
+  driveType: 2
 --- !u!1 &1978507203
 GameObject:
   m_ObjectHideFlags: 0
@@ -4914,8 +4914,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2099547358}
   m_LocalRotation: {x: -0, y: -0, z: 0.00000005151459, w: 1}
-  m_LocalPosition: {x: -1.2247726, y: -0.3328082, z: 1.7289323}
-  m_LocalScale: {x: 0.0030000017, y: 0.003, z: 0.003000002}
+  m_LocalPosition: {x: -1.2247726, y: -0.16, z: 1.7289323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1017132572}
   m_RootOrder: 0
@@ -4927,14 +4927,14 @@ WheelCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2099547358}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 172.3
+  m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
+    spring: 36871.71
+    damper: 5899.475
     targetPosition: 0.5
-  m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0
-  m_Mass: 24.08
+  m_SuspensionDistance: 0.7
+  m_ForceAppPointDistance: 0.12
+  m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
     m_ExtremumSlip: 0.4
