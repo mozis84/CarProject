@@ -222,6 +222,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!54 &1041428408 stripped
+Rigidbody:
+  m_PrefabParentObject: {fileID: 54769530043822480, guid: 64155a28df9cc4d41ada9a7fccfe1dae,
+    type: 2}
+  m_PrefabInternal: {fileID: 2101834079}
 --- !u!1001 &1156440346
 Prefab:
   m_ObjectHideFlags: 0
@@ -533,6 +538,119 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64155a28df9cc4d41ada9a7fccfe1dae, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2101834080 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1387993599011144, guid: 64155a28df9cc4d41ada9a7fccfe1dae,
+    type: 2}
+  m_PrefabInternal: {fileID: 2101834079}
+--- !u!1 &2101834081 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1234244220078840, guid: 64155a28df9cc4d41ada9a7fccfe1dae,
+    type: 2}
+  m_PrefabInternal: {fileID: 2101834079}
+--- !u!1 &2101834082 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1166197857312796, guid: 64155a28df9cc4d41ada9a7fccfe1dae,
+    type: 2}
+  m_PrefabInternal: {fileID: 2101834079}
+--- !u!1 &2101834083 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1497033121001382, guid: 64155a28df9cc4d41ada9a7fccfe1dae,
+    type: 2}
+  m_PrefabInternal: {fileID: 2101834079}
+--- !u!114 &2101834084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2101834080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06700175d65484c429aaa39c535f153a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1041428408}
+  skidmarksController: {fileID: 2116214485}
+--- !u!114 &2101834085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2101834081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06700175d65484c429aaa39c535f153a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1041428408}
+  skidmarksController: {fileID: 2116214485}
+--- !u!114 &2101834086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2101834082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06700175d65484c429aaa39c535f153a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1041428408}
+  skidmarksController: {fileID: 2116214485}
+--- !u!114 &2101834087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2101834083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06700175d65484c429aaa39c535f153a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1041428408}
+  skidmarksController: {fileID: 2116214485}
+--- !u!1 &2116214483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2116214484}
+  - component: {fileID: 2116214485}
+  m_Layer: 0
+  m_Name: SkidmarksController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2116214484
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2116214483}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.32, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2116214485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2116214483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a32f5e3fcd94ca0844b66e73bc791f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skidmarksMaterial: {fileID: 2100000, guid: 1b0282e93b5f14fdc83175e02dff65ff, type: 2}
 --- !u!4 &2125270545 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4817828927577076, guid: 64155a28df9cc4d41ada9a7fccfe1dae,
