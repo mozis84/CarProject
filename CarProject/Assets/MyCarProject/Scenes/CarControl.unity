@@ -580,6 +580,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114324745733149276, guid: 64155a28df9cc4d41ada9a7fccfe1dae,
+        type: 2}
+      propertyPath: brakeTorque
+      value: 60000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64155a28df9cc4d41ada9a7fccfe1dae, type: 2}
   m_IsPrefabParent: 0
