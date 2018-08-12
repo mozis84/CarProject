@@ -1,0 +1,3 @@
+[submodule "Assets/Plugins/SharedTexture"]
+	path = Assets/Plugins/SharedTexture
+	url = https://github.com/Lyptik/Shared-Texture-Unity.git

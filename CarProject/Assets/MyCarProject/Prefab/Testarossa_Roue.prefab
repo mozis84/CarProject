@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4662151275238074}
   - component: {fileID: 33107755631073492}
   - component: {fileID: 23740294558792212}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Testarossa_Roue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
