@@ -8,7 +8,8 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: TUNNEL2
   m_Shader: {fileID: 4800000, guid: 2f762f60a3f7f7b44aa1148e89ed95b2, type: 3}
-  m_ShaderKeywords: V_WIRE_FRESNEL_ON V_WIRE_TRY_QUAD_ON
+  m_ShaderKeywords: V_WIRE_DYNAMIC_MASK_OFF V_WIRE_FRESNEL_ON V_WIRE_TRANSPARENCY_OFF
+    V_WIRE_TRY_QUAD_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -80,7 +81,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -112,10 +113,10 @@ Material:
     - _V_WIRE_DynamicMaskType: 1
     - _V_WIRE_EmissionStrength: 0
     - _V_WIRE_FixedSize: 0
-    - _V_WIRE_FresnelBias: 0.03
+    - _V_WIRE_FresnelBias: 0.4
     - _V_WIRE_FresnelEnumID: 1
     - _V_WIRE_FresnelInvert: 0
-    - _V_WIRE_FresnelPow: 14.7
+    - _V_WIRE_FresnelPow: 7.13
     - _V_WIRE_IncludeLightEnumID: 0
     - _V_WIRE_NormalScale: 1
     - _V_WIRE_ReflectionEnumID: 0
@@ -135,7 +136,7 @@ Material:
     - _V_WIRE_Title_W_Options: 0
     - _V_WIRE_TransparencyEnumID: 0
     - _V_WIRE_Transparency_M_Options: 0
-    - _V_WIRE_TransparentTex_Alpha_Offset: 0
+    - _V_WIRE_TransparentTex_Alpha_Offset: 0.45
     - _V_WIRE_TransparentTex_Invert: 0
     - _V_WIRE_TryQuad: 1
     - _V_WIRE_VertexColor: 0
@@ -143,10 +144,10 @@ Material:
     - _V_WIRE_WireVertexColor: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.509434, g: 0.47338912, b: 0.47338912, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _V_WIRE_Color: {r: 0.4528302, g: 0.2242791, b: 0.2242791, a: 1}
+    - _V_WIRE_Color: {r: 0, g: 0, b: 0, a: 1}
     - _V_WIRE_MainTex_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _V_WIRE_ObjectWorldPos: {r: 0, g: 0, b: 0, a: 0}
     - _V_WIRE_SourceTex_Scroll: {r: 0, g: 0, b: 0, a: 0}
